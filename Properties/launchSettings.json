@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Debug ncad 23.1": {
+      "commandName": "Executable",
+      "nativeDebugging": true
+    }
+  }
+}
