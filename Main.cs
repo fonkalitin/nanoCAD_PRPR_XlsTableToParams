@@ -21,7 +21,7 @@ namespace NCadCustom
         {
             App.DocumentCollection dm = App.Application.DocumentManager;
             Ed.Editor ed = dm.MdiActiveDocument.Editor;
-            string msg = "Прошла инициализация";
+            string msg = "PRPR_objxldata - импорт данных из таблицы xls";
             ed.WriteMessage(msg);
         }
         public void Terminate()
@@ -38,7 +38,7 @@ namespace NCadCustom
 
 
         
-        [Rtm.CommandMethod("SpdsXls", Rtm.CommandFlags.Session)]
+        [Rtm.CommandMethod("PRPR_objxldata", Rtm.CommandFlags.Session)]
         public static void MainCreateObjBySpreadSheet()
         {
             InputJig jig = new InputJig();
