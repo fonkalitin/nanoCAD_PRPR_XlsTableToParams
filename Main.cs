@@ -21,7 +21,7 @@ namespace NCadCustom
         {
             App.DocumentCollection dm = App.Application.DocumentManager;
             Ed.Editor ed = dm.MdiActiveDocument.Editor;
-            string msg = "PRPR_objxldata - импорт данных из таблицы xls";
+            string msg = "PRPR_objxldata - импорт данных из файла внешней таблицы Params.xlsx";
             ed.WriteMessage(msg);
         }
         public void Terminate()
